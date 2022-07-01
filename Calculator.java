@@ -6,7 +6,7 @@ public class Calculator{
       //  System.out.print("Enter the first Number: ");
         int n1 = 20;
       //  System.out.print("\nEnter the Second Number: ");
-        int n2 = 10
+        int n2 = 10;
         
         Calculator c = new Calculator();
         System.out.println("Addition");
