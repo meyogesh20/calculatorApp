@@ -4,9 +4,9 @@ public class Calculator{
     public static void main(String args[]){
       //  Scanner sc = new Scanner(System.in);
       //  System.out.print("Enter the first Number: ");
-        int n1 = 20;
+        int n1 = 25;
       //  System.out.print("\nEnter the Second Number: ");
-        int n2 = 10;
+        int n2 = 15;
         
         Calculator c = new Calculator();
         System.out.println("Addition");
