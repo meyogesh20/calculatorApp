@@ -14,7 +14,7 @@ public class Calculator{
         System.out.println("Subtraction");
         System.out.println(c.add(n1, n2));
 
-        sc.close();
+       // sc.close();
     }
     public int add(int num1, int num2){
         System.out.println("In addtion function");
@@ -23,12 +23,13 @@ public class Calculator{
     }
 
     public int sub(int num1, int num2){
+		int value=0;
         System.out.println("In subtraction function");
         if(num1>num2){
-        int value = num1 - num2;
+        value = num1 - num2;
         }
         else{
-            int value = num2-num1;
+           value = num2-num1;
         }
         return value;
     }
