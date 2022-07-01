@@ -12,7 +12,7 @@ public class Calculator{
         System.out.println("Addition");
         System.out.println(c.add(n1, n2));
         System.out.println("Subtraction");
-        System.out.println(c.add(n1, n2));
+        System.out.println(c.sub(n1, n2));
 
        // sc.close();
     }
